@@ -11,6 +11,10 @@
 \setlist{nosep, noitemsep, label = (\textit{\roman*})}
 \usepackage{todonotes}
 
+\usepackage{tipa}
+\usepackage{linguex}
+\usepackage{qtree}
+
 \usepackage{tcolorbox}
 \usepackage{amsthm}
 \tcbuselibrary{many}
@@ -110,7 +114,7 @@
 \newcommand{\lecture}[3]{
 	%\newpage
 	%\section{#3 (#2)}
-	\todo[bordercolor = gray!30!white, backgroundcolor = gray!30!white, noline]{\scalebox{.65}{\sf #2}}
+	\todo[bordercolor = gray!30!white, backgroundcolor = gray!30!white, noline]{\scalebox{.65}{#2}}
 }
 
 \usepackage{import}
